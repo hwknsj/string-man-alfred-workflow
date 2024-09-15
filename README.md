@@ -1,0 +1,1 @@
+# string-man-alfred-workflow
