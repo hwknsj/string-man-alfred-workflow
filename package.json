@@ -1,4 +1,11 @@
 {
   "name": "string-man-alfred-workflow",
+  "author": {
+    "name": "joél hawkins torres",
+    "email": "joel@joel.fm",
+    "url": "https://joel.fm"
+  },
+  "type": "module",
+  "main": "transform.js",
   "packageManager": "yarn@4.3.1"
 }
