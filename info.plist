@@ -2,17 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>bundleid</key>
+	<string>fm.joel.stringman</string>
 	<key>category</key>
-	<string>Tools</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>359ED8A6-D6B4-4DFE-91D5-86369F1575AB</key>
-		<array/>
-		<key>3C1C03B4-3F15-4D14-AD56-90548CCC2053</key>
+		<key>8898621A-F21E-478D-B9EE-E8680D42AB7C</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D933C8C0-173B-4E92-A833-B0675776D6EE</string>
+				<string>B0BB6662-3EA1-4704-A4E0-681028BF4FD8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -21,11 +21,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>52225363-168D-443A-8902-BAB71D372C80</key>
+		<key>96C514FC-73C7-4A2A-A6EE-6F0B42A6A0B5</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BDCAAEF8-B139-428A-BB4F-D6CC0CA11AB0</string>
+				<string>6C8D30D2-ADEF-45D8-B142-4863B54A5B62</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -34,11 +34,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>BDCAAEF8-B139-428A-BB4F-D6CC0CA11AB0</key>
+		<key>B0BB6662-3EA1-4704-A4E0-681028BF4FD8</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>359ED8A6-D6B4-4DFE-91D5-86369F1575AB</string>
+				<string>164E7892-365A-40E7-8FF1-6E87549F328E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -48,7 +48,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>B04738DE-8976-486F-99CD-0D35D23DAA21</string>
+				<string>68182EF2-B4FF-40D0-8B79-9384C727FDEA</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
@@ -57,11 +57,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>F588E54E-872F-469C-AFE6-46EFDF12A4C6</key>
+		<key>DF800FAF-45C6-4445-890F-43D91B863F9E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BDCAAEF8-B139-428A-BB4F-D6CC0CA11AB0</string>
+				<string>B0BB6662-3EA1-4704-A4E0-681028BF4FD8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -72,34 +72,15 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>joel.fm</string>
+	<string>joel</string>
 	<key>description</key>
-	<string>Transform and manipulate strings</string>
+	<string>String manipulation</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>String multitool - COPY</string>
+	<string>String-man</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>359ED8A6-D6B4-4DFE-91D5-86369F1575AB</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -136,7 +117,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>String multitool</string>
+				<string>String man</string>
 				<key>type</key>
 				<integer>8</integer>
 				<key>withspace</key>
@@ -145,7 +126,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>BDCAAEF8-B139-428A-BB4F-D6CC0CA11AB0</string>
+			<string>B0BB6662-3EA1-4704-A4E0-681028BF4FD8</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -174,9 +155,28 @@
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>52225363-168D-443A-8902-BAB71D372C80</string>
+			<string>8898621A-F21E-478D-B9EE-E8680D42AB7C</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>164E7892-365A-40E7-8FF1-6E87549F328E</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -195,7 +195,7 @@
 			<key>type</key>
 			<string>alfred.workflow.trigger.universalaction</string>
 			<key>uid</key>
-			<string>F588E54E-872F-469C-AFE6-46EFDF12A4C6</string>
+			<string>DF800FAF-45C6-4445-890F-43D91B863F9E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -214,30 +214,9 @@
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>B04738DE-8976-486F-99CD-0D35D23DAA21</string>
+			<string>68182EF2-B4FF-40D0-8B79-9384C727FDEA</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>https://github.com/colomolo/alfred-string-multitool</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>D933C8C0-173B-4E92-A833-B0675776D6EE</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -256,66 +235,84 @@
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>3C1C03B4-3F15-4D14-AD56-90548CCC2053</string>
+			<string>96C514FC-73C7-4A2A-A6EE-6F0B42A6A0B5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://github.com/hwknsj/string-man-alfred</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6C8D30D2-ADEF-45D8-B142-4863B54A5B62</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># String Multitool
-Alfred workflow with handy string transforming tools.
-
-[Description](https://github.com/colomolo/alfred-string-multitool/blob/main/README.md)</string>
+	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>359ED8A6-D6B4-4DFE-91D5-86369F1575AB</key>
+		<key>164E7892-365A-40E7-8FF1-6E87549F328E</key>
 		<dict>
 			<key>xpos</key>
-			<real>525</real>
+			<real>480</real>
 			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>68182EF2-B4FF-40D0-8B79-9384C727FDEA</key>
+		<dict>
+			<key>xpos</key>
+			<real>480</real>
+			<key>ypos</key>
+			<real>445</real>
+		</dict>
+		<key>6C8D30D2-ADEF-45D8-B142-4863B54A5B62</key>
+		<dict>
+			<key>xpos</key>
+			<real>360</real>
+			<key>ypos</key>
+			<real>585</real>
+		</dict>
+		<key>8898621A-F21E-478D-B9EE-E8680D42AB7C</key>
+		<dict>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>295</real>
+		</dict>
+		<key>96C514FC-73C7-4A2A-A6EE-6F0B42A6A0B5</key>
+		<dict>
+			<key>xpos</key>
 			<real>185</real>
+			<key>ypos</key>
+			<real>585</real>
 		</dict>
-		<key>3C1C03B4-3F15-4D14-AD56-90548CCC2053</key>
+		<key>B0BB6662-3EA1-4704-A4E0-681028BF4FD8</key>
 		<dict>
 			<key>xpos</key>
-			<real>230</real>
-			<key>ypos</key>
-			<real>475</real>
-		</dict>
-		<key>52225363-168D-443A-8902-BAB71D372C80</key>
-		<dict>
-			<key>xpos</key>
-			<real>65</real>
-			<key>ypos</key>
 			<real>185</real>
+			<key>ypos</key>
+			<real>295</real>
 		</dict>
-		<key>B04738DE-8976-486F-99CD-0D35D23DAA21</key>
+		<key>DF800FAF-45C6-4445-890F-43D91B863F9E</key>
 		<dict>
 			<key>xpos</key>
-			<real>525</real>
+			<real>30</real>
 			<key>ypos</key>
-			<real>335</real>
-		</dict>
-		<key>BDCAAEF8-B139-428A-BB4F-D6CC0CA11AB0</key>
-		<dict>
-			<key>xpos</key>
-			<real>230</real>
-			<key>ypos</key>
-			<real>185</real>
-		</dict>
-		<key>D933C8C0-173B-4E92-A833-B0675776D6EE</key>
-		<dict>
-			<key>xpos</key>
-			<real>405</real>
-			<key>ypos</key>
-			<real>475</real>
-		</dict>
-		<key>F588E54E-872F-469C-AFE6-46EFDF12A4C6</key>
-		<dict>
-			<key>xpos</key>
-			<real>65</real>
-			<key>ypos</key>
-			<real>320</real>
+			<real>430</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
@@ -324,9 +321,9 @@ Alfred workflow with handy string transforming tools.
 			<key>config</key>
 			<dict>
 				<key>default</key>
-				<string>string</string>
+				<string>str</string>
 				<key>placeholder</key>
-				<string></string>
+				<string>str</string>
 				<key>required</key>
 				<true/>
 				<key>trim</key>
@@ -335,7 +332,7 @@ Alfred workflow with handy string transforming tools.
 			<key>description</key>
 			<string></string>
 			<key>label</key>
-			<string>Keyword</string>
+			<string>keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
@@ -343,8 +340,8 @@ Alfred workflow with handy string transforming tools.
 		</dict>
 	</array>
 	<key>version</key>
-	<string>1.0.12</string>
+	<string></string>
 	<key>webaddress</key>
-	<string>https://joel.fm</string>
+	<string>https://github.com/hwknsj/string-man-alfred</string>
 </dict>
 </plist>
